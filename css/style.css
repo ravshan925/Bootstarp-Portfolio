@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@400;500;700&family=Lato:wght@400;700&family=Mohave:wght@400;600;700&family=Montserrat:wght@300;600;700;900&family=Nova+Slim&family=Open+Sans+Condensed:wght@300;700&family=Oswald:wght@400;700&family=PT+Sans+Narrow:wght@400;700&family=Permanent+Marker&family=Poppins:wght@400;500;600;700;900&family=Quattrocento:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none !important;
+}
+li {
+  list-style-type: none !important;
+}
+.navbar {
+  background: #000 !important;
+}
+.nav-link{
+  transition: .3s ease;
+}
+.nav-link:hover {
+  color: #fff!important;
+}
+.main {
+  background-image: url("../img/bg-1.jpg")!important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main {
+  background: #000;
+}
+.main-name {
+  font-size: 56px !important;
+}
+.main-title {
+  border-left: 4px solid #fff;
+}
+.main-title > button {
+  background: #000 !important;
+  border: 1px solid #fff !important;
+  transition: .3s ease-in-out;
+}
+.main-title > button:hover {
+  background: #fff !important;
+  color: #000 !important;
+}
+.link:hover {
+  color: #1877f2 !important;
+}
+.skills{
+  background: #f4f4f4;
+}
+.menu {
+  width: 450px !important;
+}
+.menu-link {
+  transition: 0.3s;
+  font-size: 14px;
+}
+.menu-link:hover {
+  color: #ffc107 !important;
+  border-bottom: 2px solid #ffc107;
+}
+.menu-link_active {
+  color: #ffc107 !important;
+  border-bottom: 2px solid #ffc107;
+}
+footer {
+  background: #0c0c17 !important;
+}
+.social-links {
+  width: 200px;
+}
+.social-link {
+  transition: 0.3s ease;
+}
+.social-link:hover {
+  color: #f5f8fd !important;
+}
+.footer-main_title {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 900!important;
+  font-size: 40px!important;
+}
